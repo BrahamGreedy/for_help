@@ -1,0 +1,36 @@
+# control.h task.h
+!control.cpp control.h graphics.h keys_n_colors.h #<#>
+!main.cpp cctype cerrno clocale control.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception fstream graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error task.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+!task.cpp cctype cerrno clocale control.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception fstream graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error task.h type_traits typeinfo utility vector wchar.h wctype.h #<#>
+!task.h cctype cerrno clocale control.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception fstream graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h math.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error type_traits typeinfo utility vector wchar.h wctype.h #<#>
+ struct@Control _type_ #<control.h>
+Figure3d _type_ #<task.h>
+Figure3d() #<task.h>
+HEIGHT #<control.h>
+WIDTH #<control.h>
+control_values : enum #<control.h>
+controls : Control[] #<control.cpp>
+create_control(int i, int left, int top, const char* file_name) -> void #<control.cpp>
+create_control(int, int, int, const char*) -> void #<control.h>
+draw_bg() -> void #<main.cpp>
+main() -> int #<main.cpp>
+save() -> void #<control.h>
+select_control() -> int #<control.h>
+set_bg(const char* name) -> void #<control.cpp>
+set_bg(const char*) -> void #<control.h>
+	Control::left : int #<control.h>
+	Control::top : int #<control.h>
+	Control::right : int #<control.h>
+	Control::bottom : int #<control.h>
+	Figure3d:%I : int[] #<task.h>
+	Figure3d:%J : int[] #<task.h>
+	Figure3d:%K : int[] #<task.h>
+	Figure3d:%p : int[] #<task.h>
+	Figure3d:%surface_num : int #<task.h>
+	Figure3d:%vertex_num : int #<task.h>
+	Figure3d:%d : int[] #<task.h>
+	Figure3d:%vertexs : vector #<task.h>
+	Figure3d:%surfaces : vector #<task.h>
+	Figure3d::rotate(int) -> void #<task.h>
+	Figure3d::move(int, int) -> void #<task.h>
+	Figure3d::draw(int) -> void #<task.h>
